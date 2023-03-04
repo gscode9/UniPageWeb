@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <!-- Estilos css -->
+    <link rel="stylesheet" href="http://localhost/uni/assets/css/estilos.css">
     <script src="https://kit.fontawesome.com/49d04c18f2.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Inicio</title>
 </head>
 <body class="m-0">
     <div class="container-fluid">
@@ -17,14 +18,15 @@
                     <!--Nav Header-->
                     <div class="text-center p-3 px-4 d-none d-sm-block d-md-none">
                         <a href="index.html" class="navbar-brand mx-0 font-weight-bold text-nowrap">
-                            <img src="./img/logo-uni1.png" alt="perfil" class="img-fluid my-2 p-1" style="width: 2rem;">
+                            <img src="http://localhost/uni/assets/img/logo-uni1.png" alt="perfil" class="img-fluid my-2 p-1" style="width: 2rem;">
                             <span class="fs-6 text-nowrap">UNI EARPFIM DOCENTE</span>
+                            
                         </a>
                     </div>
                     <!--Sidebar Header-->
                     <div class="text-center p-3 px-4 bg-light d-sm-none d-md-block">
                         <a href="index.html" class="navbar-brand mx-0 font-weight-bold text-nowrap">
-                            <img src="./img/logo-uni1.png" alt="perfil" class="img-fluid my-2 p-1" style="width: 2rem;">
+                            <img src="http://localhost/uni/assets/img/logo-uni1.png" alt="perfil" class="img-fluid my-2 p-1" style="width: 2rem;">
                             <span class="fs-6 text-nowrap text-dark">UNI EARPFIM DOCENTE</span>
                         </a>
                     </div>
@@ -54,7 +56,7 @@
                                     </div>
                                 </a>
                                 <a href="./iniciosesion.html" class="p-4 bg-light border position-relative text-decoration-none d-none d-md-block">
-                                    <img src="./img/mujer.png" alt="foto perfil" class="img-fluid rounded-circle position-absolute top-0 start-0 w-25 m-1 d-none d-md-block">
+                                    <img src="http://localhost/uni/assets/img/mujer.png" alt="foto perfil" class="img-fluid rounded-circle position-absolute top-0 start-0 w-25 m-1 d-none d-md-block">
                                     <!--Sidebar-Cerrar Sesión-->
                                     <div class="ms-5 text-dark fst-italic fst-bold font-monospace text-nowrap">
                                         <i class="fas fa-sign-out-alt"></i>
@@ -72,7 +74,7 @@
                         <h1 class="font-weight-light">Bienvenido, Adriana Losano</h1>
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                         <p>La Facultad de Ingeniería Mecánica de la Universidad Nacional de Ingeniería es líder en sus programas para formar ingenieros mecánicos, mecánicos eléctricos, navales y mecatrónicos los cuales promueven el desarrollo de la industria nacional e internacional considerando la investigación, innovación tecnológica y con sentido social.</p>
-                        <img src="img/facultad-mecanica.png" alt="facultad de ingeniería mecánica" class="position-absolute top-20 start-50 translate-middle-x img-fluid rounded">
+                        <img src="http://localhost/uni/assets/img/facultad-mecanica.png" alt="facultad de ingeniería mecánica" class="position-absolute top-20 start-50 translate-middle-x img-fluid rounded">
                     </article>
                 </div>
             </main>
