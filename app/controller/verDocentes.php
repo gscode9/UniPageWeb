@@ -1,10 +1,22 @@
 <?php
-require("../model/docentes.php");
-// require("../model/docentes.php");
+// Usar condicionales(o estructura de control) para determinar que vista mostrar
+// $array=["Inicio","Datos personales","Editar datos","Asistencia", "Asistencia mensual"];
 
-$docente = new Docente();
-$profesores = $docente->ObtenerDatosDocente();
+// if(isset($_GET["datospersonales"])){
+//     require("app/model/docentes.php");
 
-require("../view/datospersonales.php");
-// require("../view/datospersonales.php");
+//     $docente = new Docente();
+//     $docente = $docente->MostarDatosDocente($idDocentes);
+//     $title = $array[1];
+//     require("app/view/datospersonales.php");
+// }else{
+//     require("app/view/inicio.php");
+//     $title = $array[0];
+// }
+//-----------------------------------------------------------------------------------------------------------
+// class Controller{
+//     public function navegacion(){
+        if(!isset($_GET["pagina"]) && empty($GET["pagina"])) return include("app/view/login.php");
+//     }
+// }
 ?>
